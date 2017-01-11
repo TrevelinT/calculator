@@ -2,7 +2,7 @@ export const add = (lastOperation) => {
   if(!lastOperation) throw new Error('The first calculator operation can\'t be an operator')
   return {
     type: 'operation',
-    payload: '*'
+    payload: '+'
   }
 }
 
