@@ -29,6 +29,7 @@ export default {
   display: -ms-flex;
   display: flex;
   align-items: center;
+  max-height: 4em;
 }
 
 .app-title {

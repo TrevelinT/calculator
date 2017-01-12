@@ -50,12 +50,6 @@
 </template>
 
 <script>
-//TODO: Separar o App.vue em componentes reutilizáveis
-//TODO: Separar os estilos juntos
-//TODO: Subir versão no github
-//TODO: Colocar ícones no menu lateral
-//TODO: Colocar links do github e talz
-//FIX: App em telas grandes (monitor full HD)
 import { calculator as calculatorDictionary, error as errorDictionary } from './dictionary'
 import Calculator from './calculator'
 import * as operators from './operators'
@@ -174,8 +168,6 @@ h1, h2 { margin: 0 0 1em 0; }
 }
 
 .calculator {
-  x-width: 20em;
-  border: 2px solid #000;
   box-sizing: border-box;
   moz-box-sizing: border-box;
   position: relative;
@@ -236,8 +228,6 @@ h1, h2 { margin: 0 0 1em 0; }
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  /*-webkit-justify-content: center;
-  justify-content: center;*/
 }
 button {
   flex-basis: 25%;

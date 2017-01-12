@@ -1,16 +1,17 @@
 <template lang="html">
   <aside class="app-sidebar" :class="{ 'is-open': isMenuOpened }">
     <div class="profile">
-        <span class="profile-picture"></span>
+        <img src="/dist/foto.jpg" class="profile-picture"/>
         <p class="profile-name">Danilo Trevelin</p>
-        <a class="profile-email" href="#">danilo.muller.trevelin@gmail.com</a>
+        <a class="profile-email" href="mailto:danilo.muller.trevelin@gmail.com">danilo.muller.trevelin@gmail.com</a>
     </div>
     <ul class="links-list">
-        <li><a class="links-item" href="#">Github</a></li>
-        <li><a class="links-item" href="#">LinkedIn</a></li>
+        <li><a class="links-item" href="https://github.com/trevelint/">Github</a></li>
+        <li><a class="links-item" href="https://www.linkedin.com/in/danilo-trevelin/">LinkedIn</a></li>
     </ul>
     <ul class="links-list">
-        <li><a class="links-item" href="#">Made with Vue 2.0</a></li>
+        <li><a class="links-item" href="https://vuejs.org/">Made with Vue 2.0</a></li>
+        <li><a class="links-item" href="https://github.com/trevelint/calculator/">Source Code</a></li>
     </ul>
   </aside>
 </template>
